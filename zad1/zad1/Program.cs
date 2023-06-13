@@ -35,10 +35,12 @@ class Program
         {
             int result = Helpers.Binary(input);
             Console.WriteLine("Wynik: " + result);
+            Console.ReadKey();
         }
         catch (ArgumentException e)
         {
             Console.WriteLine("Błąd: " + e.Message);
+            Console.ReadKey();
         }
     }
 }
