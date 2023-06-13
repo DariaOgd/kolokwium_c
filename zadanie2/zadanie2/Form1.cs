@@ -26,7 +26,7 @@ namespace zadanie2
                 if (!string.IsNullOrEmpty(letter))
                 {
                     string category = GetCategory(letter[0]);
-                    result.AppendLine($"{letter} is {category}");
+                    result.AppendLine($"{letter} jest {category}");
                 }
             }
 
